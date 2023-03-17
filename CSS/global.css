@@ -1,0 +1,21 @@
+/* Header */
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+/* Colors */
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-gray {
+    background-color: #121212;
+}
