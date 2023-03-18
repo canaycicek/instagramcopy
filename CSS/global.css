@@ -19,3 +19,7 @@
 .bg-gray {
     background-color: #121212;
 }
+
+.footer-description a {
+    font-weight: bold;
+}

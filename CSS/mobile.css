@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    color: #fff;
+}
+
+i {
+    color: #fff;
+}
+
+p{
+    color: #fff;
+}
+
+svg {
+    color: unset;
+}
+
+#navbar {
+    display: none;
+}
+
+#bodyfooter {
+    display: none;
+}
+
+#storys {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 80px;
+    margin-bottom: 16px;
+    padding-left: 18px;
+    border: 1px solid #363636;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#storys .story {
+    display: flex;
+    flex-direction: row;
+    column-gap: 13px;
+}
+
+#storys .story-total {
+    width: 64px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#storys .story .story-image img {
+    width: 56px;
+    border: 2px solid #363636;
+    border-radius: 100%;
+}
+
+#storys p {
+    font-size: 12px;
+    text-align: center;
+}
+
+#posts {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #363636;
+    overflow: hidden;
+    border-radius: 8px;
+    
+}
+
+#posts .posthead {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px 7px;
+}
+
+#posts .posthead .profil {
+    width: 32px;
+    border-radius: 100%;
+}
+
+#posts .posthead .profil-nick {
+    display: flex;
+    flex-direction: row;
+    margin-left: 17px;
+    align-items: center;
+    text-align: center;
+}
+
+a.nick {
+    font-size: 13px;
+}
+
+#posts .posthead svg {
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.profil-nick h4 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 12px;
+    margin-left: 12px;
+}
+
+.posthead .profil-nick a:hover {
+    color: #7B7875;
+}
+
+.posthead .options a:hover {
+    color: #7B7875;
+}
+
+/* Just Mobile */
+#second-navbar div {
+    width: 100%;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 0px;
+    position: fixed;
+    bottom: 0;
+    background: black;
+    border-top: 1px solid #363636;
+}
+
+#second-navbar a {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#third-navbar {
+    background: black;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.search-box input {
+    width: 16rem;
+    color: white;
+    background-color: #121212eb;
+    padding: 0.75rem;
+    border-radius: 15px;
+}
+
+
